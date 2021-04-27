@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/tailwind.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/custom-form.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="icon" type="image/png" href="https://web.credihub.net/lay-front/img/favicon.png" sizes="32x32">
+
+    <title>Confirmar Pedido | Curso JS Coderhouse | Rojas Sebastian</title>
+  </head>
+  <body>
+
+    <div class="container mx-auto mt-20 bg-white">     
+        <header id="header" class="bg-pink-800 p-3 font-bold">
+            Confirmar Pedido
+        </header>
+
+        <div class="py-0 px-5 max-w-lg mx-auto">
+            <p class="py-5 px-5 max-w-lg mx-auto" style="text-align:center">            
+            Tu pedido es el siguiente:
+            <br>
+                <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th style="padding:25px">Imagen</th>
+                            <th style="padding:25px">Nombre</th>                                        
+                            <th style="padding:25px">Cantidad</th>
+                            <th style="padding:25px">Precio</th>                            
+                        </tr>
+                    </thead>
+                    <tbody class="cart-products"> 
+
+                    </tbody>
+                </table>  
+            </p>
+            <p style="font-size:22px;color:#11809b;text-align:center;font-weight:bold">
+                Total: $ <span class="cart-total"></span>
+            </p>
+        </div>
+        
+
+        <form id="enviar-mail" class="py-0 px-5 max-w-lg mx-auto">
+            <p class="py-5 px-5">
+                Completa tus datos para poder confirmanos tu pedido.
+            </p>
+            <div class="mb-10">
+                <label for="name">Tu nombre</label>
+                <input class="bg-gray-100 border shadow p-3 w-full"  id="name" type="text">
+            </div>
+            <div class="mb-10">
+                <label for="email">Tu email</label>
+                <input class="bg-gray-100 border shadow p-3 w-full"  id="email" type="email">
+            </div>
+            <div class="mb-10">
+                <label for="telefono">T&eacute;lefono</label>
+                <input class="bg-gray-100 border shadow p-3 w-full"  id="telefono" type="text">
+            </div>
+            <div class="mb-10">
+                <label for="direccion">Domicilio</label>
+                <input class="bg-gray-100 border shadow p-3 w-full"  id="direccion" type="text">
+            </div>
+            <div class="mb-10"> 
+                <label for="mensaje">Comentarios</label>
+                <textarea class="bg-gray-100 border shadow p-3 w-full" id="mensaje"></textarea>
+            </div>
+
+            <div  id="spinner">
+                <div class="sk-chase">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+            
+            <div class="flex justify-between">
+                    <button 
+                        id="enviar" class="w-full bg-blue-600 px-2 py-5 text-white items-center cursor-not-allowed opacity-50 mr-5 uppercase font-bold items-center flex justify-center" 
+                        type="submit" 
+                    >Enviar
+                        <i class="material-icons right text-white ml-3">send</i>
+                    </button>
+
+                    <button 
+                        id="resetBtn" 
+                        class="w-full bg-green-600 px-2 py-5 text-white items-center uppercase font-bold items-center flex justify-center" 
+                        type="submit"
+                    >Limpiar datos
+                            <i class="material-icons right ml-3">delete</i>
+                    </button>
+            </div>
+        </form> 
+        <br>
+    </div>
+    <br><br>
+     <!--LIBRERIA JQUERY-->
+    <script src="./js/jquery.min.js"></script>  
+    <script src="js/form.js"></script> 
+  </body>
+</html>
+      

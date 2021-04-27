@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "B2B Digital Week",
+    "image": "./img/evento1.jpg",
+    "extraInfo": "Ciclo de Crédito",
+    "price": 700
+  },
+  {
+    "id": 2,
+    "name": "Insurtech Latam Forum",
+    "image": "./img/evento2.jpg",
+    "extraInfo": "Foro Latinoamericano",
+    "price": 1200
+  },
+  {
+    "id": 3,
+    "name": "Fin&Pay",
+    "image": "./img/evento3.jpg",
+    "extraInfo": "Latam Digital Fórum",
+    "price": 600
+  },
+  {
+    "id": 4,
+    "name": "Business Revolution",
+    "image": "./img/evento4.jpg",
+    "extraInfo": "Edición Especial 17°",
+    "price": 950
+  },
+  {
+    "id": 5,
+    "name": "Ciclo de Crédito",
+    "image": "./img/open-talks-2.jpeg",
+    "extraInfo": "MF",
+    "price": 450
+  },
+  {
+    "id": 6,
+    "name": "Ciclo de Crédito",
+    "image": "./img/open-talks-3.jpeg",
+    "extraInfo": "Acordo Certo",
+    "price": 450
+  },
+  {
+    "id": 7,
+    "name": "Ciclo de Crédito",
+    "image": "./img/open-talks-4.jpeg",
+    "extraInfo": "Guiabolso",
+    "price": 450
+  },
+  {
+    "id": 8,
+    "name": "Ciclo de Crédito",
+    "image": "./img/open-talks-5.jpeg",
+    "extraInfo": "Pravaler",
+    "price": 450
+  }
+]

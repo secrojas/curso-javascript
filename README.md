@@ -9,6 +9,8 @@ _Entrega para el curso de javascript desarrollado en Coderhouse_
 
 _Tienda virtual de la sección de Open Hub de la plataforma CMS Group. Lo que se intenta con esta plataforma es gestionar las ventas de los tickets para las inscripciones a las distintas webinars que brinda la plataforma_
 
+**DEMO:** https://www.youtube.com/watch?v=Wozwxvc-bdY
+
 _Es un primer acercamiento de como podria funcionar la inscripción_
 
 
@@ -32,6 +34,9 @@ _Es un primer acercamiento de como podria funcionar la inscripción_
 
 
 ### Ejecutar el proyecto
+
+**Clonar el repositorio**
+**Ejecutar o correr el proyecto dentro de localhost o servidor local**
 
 ---
 ⌨️ [srojasweb](https://github.com/secrojas)

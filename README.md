@@ -9,6 +9,8 @@ _Entrega para el curso de javascript desarrollado en Coderhouse_
 
 _Tienda virtual de la sección de Open Hub de la plataforma CMS Group. Lo que se intenta con esta plataforma es gestionar las ventas de los tickets para las inscripciones a las distintas webinars que brinda la plataforma_
 
+![BANNER](https://curso-javascript.srojasweb.dev/img/portada.jpg)
+
 **DEMO:** https://www.youtube.com/watch?v=Wozwxvc-bdY
 
 _Es un primer acercamiento de como podria funcionar la inscripción_

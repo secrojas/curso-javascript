@@ -1,11 +1,11 @@
-# JavaScript y ES6: Lo último en JS con Proyectos Reales
+# Proyecto de entrega final para el curso de Javascript | CoderHouse
 
-_Curso en Udemy donde se explica paso a paso JavaScript ES6._
+_Entrega para el curso de javascript desarrollado en Coderhouse_
 
-**Url del Curso:** https://courses.agustinnavarrogaldon.com/javascript
+**Url del proyecto en producción:** https://curso-javascript.srojasweb.dev
 
 
-## Comenzando 🚀
+## Descripción del proyecto
 
 _Gracias a este curso aprenderás desde los conceptos básicos de **JavaScript, hasta lo más avanzado** para crear una páginas webs completa desde cero._
 
@@ -14,7 +14,7 @@ _Una vez terminado el curso **serás capaz de crear cualquier tipo de script o p
 _Aprenderemos desde las bases de JavaScript y ES6 y crearemos poderosas páginas webs que consuman APIs de terceros sin dificultad._
 
 
-### Que veremos en el curso
+### Temas vistos
 
 * Aprenderás a consumir APIS REST con JSON y Fetch API + Async / Await, uno de los temas más importantes como desarrollador JavaScript.
 * JavaScript es el lenguaje más buscado por las empresas hoy en día.
@@ -36,8 +36,8 @@ _Aprenderemos desde las bases de JavaScript y ES6 y crearemos poderosas páginas
 * Aprenderemos a usar funciones para remplazar un texto por otro.
 * Veremos con transformador los tipos de datos para poder manejarlos de diferente forma.
 
-_Lo mejor de todo, es que este curso no acaba aquí, va a tener continuas actualizaciones para ir mejorando tus conocimientos cada días más y más._
 
+### Ejecutar el proyecto
 
 ---
-⌨️ con ❤️ por [xAgustin93](https://github.com/xAgustin93) 😊
+⌨️ [srojasweb](https://github.com/secrojas)
